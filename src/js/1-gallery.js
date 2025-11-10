@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const markup = imagesTemplate(images);
   container.innerHTML = markup;
   let gallery = new SimpleLightbox('.gallery a', {
-     captionData: 'alt',
+     captionsData: 'alt',
      captionPosition: 'bottom',
      captionDelay: 250,
   });
